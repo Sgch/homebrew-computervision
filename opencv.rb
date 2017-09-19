@@ -5,12 +5,6 @@ class Opencv < Formula
   sha256 "95029eb5578af3b20b8c7f8f6f59db1b827c2d5aaaa74b6becb1de647cbdda5a"
   revision 3
 
-  bottle do
-    sha256 "cf9f5f528cb2217a4fde2c635ce90d07b51e01564d7c66fc4413c41e22b17572" => :sierra
-    sha256 "bd88772952a81606b7ff43e7d3874213680d4d190c319360f3da603b76f1cfb3" => :el_capitan
-    sha256 "6073b44f5b601de364147a9b6b3ee784c6070303582cf3db9a513ce8a1796a0c" => :yosemite
-  end
-
   keg_only "opencv conflicts original opencv"
 
   depends_on "cmake" => :build
