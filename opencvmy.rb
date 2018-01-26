@@ -1,5 +1,5 @@
-class Opencv < Formula
-  desc "Open source computer vision library"
+class OpencvMy < Formula
+  desc "Open source computer vision library for myself"
   homepage "https://opencv.org/"
   url "https://github.com/opencv/opencv/archive/3.4.0.tar.gz"
   sha256 "678cc3d2d1b3464b512b084a8cca1fad7de207c7abdf2caa1fed636c13e916da"
