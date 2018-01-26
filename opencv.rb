@@ -94,6 +94,10 @@ class Opencv < Formula
       args << "-DWITH_OPENGL=ON"
     end
 
+    if build.with?("world")
+      args << "-DBUILD_opencv_world=ON"
+    end
+
     mkdir "build" do
       system "cmake", "..", *args
       system "make"
